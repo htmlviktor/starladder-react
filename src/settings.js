@@ -30,6 +30,36 @@ export const TeamListSetting = [
         name: 'Jesica Steel',
         country: 'ua'
     },
+    {
+        id: 31,
+        name: 'Kris Coul',
+        country: 'ua'
+    },
+    {
+        id: 51,
+        name: 'Christiano Ronaldo',
+        country: 'ua'
+    },
+    {
+        id: 81,
+        name: 'Leonel Messi',
+        country: 'ua'
+    },
+    {
+        id: 314,
+        name: 'Andry Mout',
+        country: 'ua'
+    },
+    {
+        id: 821,
+        name: 'Casper Counten',
+        country: 'ua'
+    },
+    {
+        id: 90,
+        name: 'Vitaliy Kouel',
+        country: 'ua'
+    },
 ]
 
 export const EventInformationSetting = {
@@ -42,47 +72,71 @@ export const EventInformationSetting = {
 
 export const MatchesSetting = [
     {
+        id: 1,
         firstPlayer: {
             name: 'Albert Waren',
-            coff: 3.22
+            coff: 3.22,
+            teamLogo: 'img/teams/1.png'
         },
-        secondPlayed: {
+        secondPlayer: {
             name: 'Viktor Kan',
-            coff: 3
+            coff: 3,
+            teamLogo: 'img/teams/2.png'
         },
         startDate: 'Starts in: 5 hours 39 min • Bо 3',
+        live: true,
+        timeHours: '08:00',
+        timeDay: '15 Ноября'
     },
     {
+        id: 2,
         firstPlayer: {
             name: 'Albert Waren',
-            coff: 3.22
+            coff: 3.22,
+            teamLogo: 'img/teams/3.png'
         },
-        secondPlayed: {
+        secondPlayer: {
             name: 'Viktor Kan',
-            coff: 3
+            coff: 3,
+            teamLogo: 'img/teams/4.png'
         },
         startDate: 'Starts in: 5 hours 39 min • Bо 3',
+        live: false,
+        timeHours: '19:00',
+        timeDay: '29 Октября'
     },
     {
+        id: 3,
         firstPlayer: {
             name: 'Albert Waren',
-            coff: 3.22
+            coff: 3.22,
+            teamLogo: 'img/teams/5.png'
         },
-        secondPlayed: {
+        secondPlayer: {
             name: 'Viktor Kan',
-            coff: 3
+            coff: 3,
+            teamLogo: 'img/teams/2.png'
         },
         startDate: 'Starts in: 5 hours 39 min • Bо 3',
+        live: false,
+        timeHours: '21:00',
+        timeDay: '19 Октября'
     },
     {
+        id: 4,
         firstPlayer: {
             name: 'Albert Waren',
-            coff: 3.22
+            coff: 3.22,
+            teamLogo: 'img/teams/1.png'
         },
-        secondPlayed: {
+        secondPlayer: {
             name: 'Viktor Kan',
-            coff: 3
+            coff: 3,
+            teamLogo: 'img/teams/4.png'
         },
         startDate: 'Starts in: 5 hours 39 min • Bо 3',
+        live: true,
+        timeHours: '11:00',
+        timeDay: '30 Октября'
     }
 ]

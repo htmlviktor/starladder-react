@@ -5,12 +5,12 @@ const Header = () => {
         <header className="header">
             <div className="header__line">
                 <div className="container">
-                    <img src="img/company-logo.svg" width={50} height={50} alt className="header__line-logo" />
+                    <img src="img/company-logo.svg" width={50} height={50} alt="Логотип Компании" className="header__line-logo" />
                 </div>
             </div>
             <section className="header__info container">
                 <div className="header__info-box">
-                    <img src="img/game-logo.png" width={191} height={60} alt className="header__game-logo" />
+                    <img src="img/game-logo.png" width={191} height={60} alt="Логотип игры" className="header__game-logo" />
                     <h1 className="header__title title">StarSeries i-League CSGO Season 8</h1>
                     <div className="header__description">
                         <p className="header__description-content">Parimatch League CS:GO is the new online league in
@@ -21,8 +21,8 @@ const Header = () => {
           the CIS will take part in the League, with 4 teams going to League through open qualifiers.</p>
                     </div>
                     <div className="header__btns-wrapper">
-                        <a href className="header__link button button--more">Read Announcement</a>
-                        <a href className="header__link button button--get">Get Tickets</a>
+                        <a href="/" className="header__link button button--more">Read Announcement</a>
+                        <a href="/" className="header__link button button--get">Get Tickets</a>
                     </div>
                 </div>
                 <div className="header__info-box header__info-more">
@@ -32,25 +32,25 @@ const Header = () => {
                         <li><span>Призы:</span> <span>$1,000,000</span></li>
                     </ul>
                     <div className="header__social-list">
-                        <a href className="header__social-link">
+                        <a href="/" className="header__social-link">
                             <span className="visually-hidden">Twitter</span>
                             <svg viewBox="0 0 100 100" width={27} height={27}>
                                 <use xlinkHref="img/sprite/sprite.svg#twitter" />
                             </svg>
                         </a>
-                        <a href className="header__social-link">
+                        <a href="/" className="header__social-link">
                             <span className="visually-hidden">Discord</span>
                             <svg viewBox="0 0 100 100" width={27} height={27}>
                                 <use xlinkHref="img/sprite/sprite.svg#discord" />
                             </svg>
                         </a>
-                        <a href className="header__social-link">
+                        <a href="/" className="header__social-link">
                             <span className="visually-hidden">Facebook</span>
                             <svg viewBox="0 0 100 100" width={27} height={27}>
                                 <use xlinkHref="img/sprite/sprite.svg#facebook" />
                             </svg>
                         </a>
-                        <a href className="header__social-link">
+                        <a href="/" className="header__social-link">
                             <span className="visually-hidden">Vkontakte</span>
                             <svg viewBox="0 0 100 100" width={27} height={27}>
                                 <use xlinkHref="img/sprite/sprite.svg#vk" />

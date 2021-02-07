@@ -9,7 +9,7 @@ const StagesSection = () => {
             <p className="stages-of__description">
                 The path to every Major begins with the open qualifiers for the regional Minor Championships, spanning
                 Europe,
-    CIS, Americas, and Asia. <a href>Here is</a> the schedule of every qualifying stage of StarLadder Major.
+    CIS, Americas, and Asia. <a href="/">Here is</a> the schedule of every qualifying stage of StarLadder Major.
   </p>
             <TeamSection />
         </section>
