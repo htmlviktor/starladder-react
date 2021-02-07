@@ -2,6 +2,7 @@ import React from 'react';
 import MoreLinks from '../../components/more-links';
 import RegisterSteps from '../../components/register-steps';
 import TeamList from '../../components/team-list';
+import {TeamListSetting} from '../../settings';
 
 const TeamSection = () => {
     return (
@@ -13,7 +14,7 @@ const TeamSection = () => {
             </div>
             <div className="stages-of__wrapper">
                 <div className="stages-of__box">
-                    <TeamList />
+                    <TeamList teams={TeamListSetting}/>
                 </div>
                 <div className="stages-of__box">
                     <RegisterSteps />

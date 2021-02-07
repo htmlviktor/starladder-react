@@ -1,10 +1,17 @@
 import React from 'react';
+import { ToggleList } from '../../settings';
 
-const TogglePanel = () => {
+const TogglePanel = ({ currentToggle, onToggleClick }) => {
     return (
         <div className="results__toggle-panel toggle-panel">
-            <button className="toggle-panel__btn toggle-panel__btn--active">Matches</button>
-            <button className="toggle-panel__btn">Battles</button>
+            {ToggleList.map(({ id, name }) => (
+                <button
+                    key={id}
+                    onClick={onToggleClick}
+                    className={`toggle-panel__btn ${currentToggle === name && 'toggle-panel__btn--active'}`}>
+                    {name}
+                </button>
+            ))}
         </div>
     )
 }
