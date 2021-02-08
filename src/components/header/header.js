@@ -4,8 +4,10 @@ const Header = () => {
     return (
         <header className="header">
             <div className="header__line">
-                <div className="container">
-                    <img src="img/company-logo.svg" width={50} height={50} alt="Логотип Компании" className="header__line-logo" />
+                <div className="header__line-wrapper">
+                    <a href="/" aria-label="Ссылка на главную страницу">
+                        <img src="img/company-logo.svg" width={50} height={50} alt="Логотип Компании" className="header__line-logo" />
+                    </a>
                 </div>
             </div>
             <section className="header__info container">
