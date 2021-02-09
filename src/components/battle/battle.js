@@ -12,7 +12,7 @@ const BattleDefault = ({ battle }) => {
                 </span>
             </span>
             <span className="event__teams">
-                <span href className="event__team-link"><img src={firstPlayer.teamLogo} /></span>
+                <span className="event__team-link"><img src={firstPlayer.teamLogo} /></span>
             </span>
             <span className="event__battle-wrapper">
                 <span className="event__battle-box">
@@ -39,11 +39,11 @@ const BattleLive = ({ battle }) => {
             <span className="event__pre-wrapper">
                 <span className="event__pre-title">Asia Minor: Play-Off</span>
                 <span className="event__pre-times">
-                    <span href="#" className="event__watch-live">Watch Live!</span>
+                    <span className="event__watch-live">Watch Live!</span>
                 </span>
             </span>
             <span className="event__teams">
-                <span href className="event__team-link"><img src="img/teams/1.png" /></span>
+                <span className="event__team-link"><img src="img/teams/1.png" /></span>
             </span>
             <span className="event__battle-wrapper">
                 <span className="event__battle-box">
